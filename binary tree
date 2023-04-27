@@ -77,7 +77,7 @@ node *helpdelete(node *root,int data) {
 
 // Deleting a node
 struct node *deleteNode(struct node *root, int key) {
-    helpdelete(root,key);
+    return helpdelete(root,key);
 }
 
 // Driver code
